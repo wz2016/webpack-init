@@ -1,6 +1,14 @@
 {
-  "plugins": [
-    "transform-es2015-arrow-functions",
-    "async-to-promises"
-  ]
+  "presets": [
+    [
+      "env",
+      {
+        "target": {
+          "browsers": ["last 2 verions"]
+        },
+        "debug": true
+      }
+    ]
+  ],
+  "plugins": "transform-runtime"
 }
