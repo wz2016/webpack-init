@@ -1,7 +1,7 @@
 require('babel-runtime/regenerator');
 require('./main.css');
 require('./index.html');
-require("webpack-hot-middleware/client");
+require("webpack-hot-middleware/client?reload=true");
 // alert('hello World!@#12');
 
 // var a = () => {
