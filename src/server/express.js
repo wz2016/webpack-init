@@ -21,7 +21,7 @@ server.use(webpackHotMiddleware); // after dev middleware
 const staticMiddleware = express.static('dist');
 
 server.use(staticMiddleware); // express to have route
-
+// debugger
 server.listen(8080, () => {
   console.log('Server Start')
 })
